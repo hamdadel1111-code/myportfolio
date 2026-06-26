@@ -1,0 +1,59 @@
+body{
+    direction: rtl;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+section{
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1) ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.skill-card, .learn-card{
+    text-align: right;
+    margin-bottom: 30px;
+    padding-right: 15px;
+}
+.skill-card h3, .learn-card h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #000000;
+}
+.skill-card p, .learn-card p{
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: Red;
+}
+.ims{
+    padding-right: 8px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+nav a{
+    padding: 30px;
+}
+#mynumber{
+    align-items: center;
+    max-height: 50px;
+}
